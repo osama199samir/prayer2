@@ -1,0 +1,90 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+html{
+  direction: rtl;
+}
+
+section{
+  background: url(assets/pray.pic.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+section .container{
+  width: 650px;
+  background-color: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  /* box-shadow: 1px 1px 20px 40px red; */
+  border-radius: 10px;
+  border: 1px solid #d7d7d74e;
+  margin-right: 15%;
+  
+}
+
+.top_sec{
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a54f3a;
+  margin-bottom:40px ;
+  padding-bottom: 40px;
+ 
+}
+
+.top_sec select {
+  width:250px;
+  border-radius:5px ;
+  outline: none;
+  background-color: #a54f3a;
+  padding: 10px 10px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.top_sec h3 {
+  font-size: 26px;
+  color: white;
+}
+
+.top_sec .date{
+  width:250px
+}
+
+.top_sec .date h4 {
+  font-size: 26px;
+  color:white
+
+}
+
+
+/*//////////////////////////////////*/
+
+
+  .prayar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 15px 10px;
+  background-color: #c0583e75;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border: 1px solid #a54f3a;
+  font-size: 24px;
+  
+}
